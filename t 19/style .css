@@ -1,0 +1,40 @@
+header{
+	border:2px solid white;
+	height:30px;
+
+}
+main{
+	border:2px solid white;
+	height:350px;
+	width:60%;
+	float:left;
+	box-sizing:border-box;
+}
+aside{
+	border:2px solid white;
+	height:350px;
+	width:40%;
+	float:right;
+	box-sizing:border-box;
+}
+footer{
+	border:2px solid white;
+	height:40px;
+	float:left;
+	width:100%;
+}
+body{
+	background:url("a3.JPG");
+	background-repeat:no-repeat;
+	background-size:100%;
+	color:white;
+	font-family:cursive;
+	margin:0px;
+}
+img{
+	height:150px;
+	width:120px;
+}
+.q1{
+	font-size:15px;
+}
