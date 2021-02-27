@@ -1,0 +1,46 @@
+.h1{
+	font-size:55px;
+	font-family:ALGERIAN;
+}
+.a1{
+	background:url("a1.JPG");
+	font-size:25px;
+	background-size:100%;
+}
+p{
+	background-color:rgba(0, 0, 0, 0.5);
+	color:white;
+}
+.h2{
+	font-size:35px;
+	font-family:Luminari, fantasy;
+}
+.p1{
+	font-size:25px;
+	font-family:Luminari, fantasy;
+}
+.a2{
+	background:url("a3.JPG");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.p1{
+	font-family:Trattatello, fantasy;
+	font-size:22px;
+}
+body{
+	background:url("a4.PNG");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.m1{
+	width:200px;
+	height:250px;
+}
+p{
+	font-size:25px;
+}
+.m2{
+	width:300px;
+	height:250px;
+}
