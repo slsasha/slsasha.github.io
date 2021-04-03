@@ -1,30 +1,66 @@
 <html>
 <head>
 <style>
- .a1{
+ .d1{
 	background:url("https://images.ua.prom.st/1537234440_spinner-vertushka-spinner.jpg");
-	width:400px;
-	height:400px;
+	width:90px;
+	height:90px;
 	background-size:100%;
 	animation-name:s1;
-	animation-duration:3s;
-	animation-timing-function:linear;
-	animation-iteration-count:10;
+	animation-duration:2s;
+	animation-timing-function:ease-in;
+	animation-iteration-count:1;
+	margin-left:255px;
+	margin-top:345px;
+	animation-fill-mode:forwards;
  }
  @keyframes s1{
- 0%{transform:translate(0px, 0px) rotatez(0deg);}
- 20%{transform:translate(1200px, -100px) rotatez(3000deg);
- 40%{transform:translate(1500px, -1000px) rotatez(3000deg);
- 60%{transform:translate(1700px, 1500px) rotatez(3000deg);
- 80%{transform:translate(1800px, -1500px) rotatez(3000deg);
- 100%{transform:translate(-3000px, -1700px) rotatez(3000deg);}
+ 0%{transform:rotate3d(0,0,0,deg);}
+ 25%{transform:rotate3d(-1,-1,-1,180deg);}
+ 50%{transform:rotate3d(-3,-3,-3,360deg);}
+ 75%{transform:rotate3d(3,3,3,360deg);}
+ 100%{transform:translate(0px,550px) rotate3d(2,2,2,360deg);}
  }
- 
- 
+ body{
+	background:url("a2.jpg");
+	background-repeat:no-repeat;
+ }
+ .d2{
+	background:url("a1.jpg");
+	width:90px;
+	height:90px;
+	background-size:100%;
+	animation-name:s2;
+	animation-delay:3s;
+	animation-duration:3s;
+	animation-timing-function:linear;
+	animation-iteration-count:1;
+	animation-fill-mode:forwards;
+ }
+ @keyframes s2{
+ 0%{transform:translate(0px, 0px);}
+ 50%{transform:translate(270px, -80px);}
+ 75%{transform:translate(270px, -80px);rotate3d(-2,-2,-2,3600deg)}
+ 100%{transform:translate(270px, -80px) rotate3d(2,2,2,3600deg);}
+ }
+ p{
+	color:yellow;
+	font-size:100px;
+	animation-name:p1;
+	animation-delay:3s;
+ }
+ .d3{
+	margin-left:1000px;
+ }
+ @keyframes p1{
+ 0%{font-family:Tahoma;}
+ 100%{font-family:cursive;}
+ }
 </style>
 </head>
 <body>
-<div class="a1"></div>
-<div class="a2"></div>
+<div class="d1"></div>
+<div class="d2"></div>
+<div class="d3"><p>O_O</p></div>
 </body>
 </html>
