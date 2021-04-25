@@ -38,19 +38,10 @@ header{
 }
 .p1{
     color:white;
-    font-size:25px;
+    font-size:23px;
     margin-left:10px;
 }
-.p2{
-    background-color:darkblue;
-    opacity:0.9;
-    color:white;
-    font-size:25px;
-    width:22%;
-    height:30px;
-    margin-top:7px;
-    margin-left:2px;
-}
+
 h1{
     color:white;
 
@@ -62,4 +53,14 @@ ul{
     text-decoration:none;
     font-size:25px;
     color:silver;
+}
+.p2{
+    background-color:darkblue;
+    opacity:0.9;
+    color:white;
+    font-size:25px;
+    width:20%;
+    height:30px;
+    margin-top:7px;
+    margin-left:2px;
 }
