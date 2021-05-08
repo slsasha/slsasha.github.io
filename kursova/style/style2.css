@@ -2,6 +2,7 @@ body{
     background:url("img/img1.jpg");
     background-repeat:no-repeat;
     background-size:100%;
+    font-family:monospace;
 }
 header{
     background-color: black;
@@ -11,6 +12,8 @@ header{
 }
 .a1{
     text-decoration:none;
+    color: cyan;
+    font-family:algerian;
 }
 .a2{
     margin-left:30px;
@@ -63,4 +66,34 @@ ul{
     height:30px;
     margin-top:7px;
     margin-left:2px;
+}
+.div3{
+    display:inline-block;
+    margin-left:40px;
+    border:2px solid white;
+    border-radius:5px;
+}
+.ph1{
+    width:180px;
+    height:250px;
+}
+.p3{
+    color:white;
+    font-size:20px;
+}
+.a4{
+    text-decoration:none;
+}
+
+.a3:hover{
+    color:rgb(255, 156, 7);
+    font-size:30px;
+    transition: all 0.5 ease-out;
+}
+.a1:hover{
+    color:white ;
+}
+.a2:hover{
+    transform:rotate(10deg);
+     border:1px solid cyan;
 }

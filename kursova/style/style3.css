@@ -2,6 +2,7 @@ body{
     background:url("img/img1.jpg");
     background-repeat:no-repeat;
     background-size:100%;
+    font-family:monospace;
 }
 header{
     background-color: black;
@@ -11,6 +12,8 @@ header{
 }
 .a1{
     text-decoration:none;
+    color: cyan;
+    font-family:algerian;
 }
 .a2{
     margin-left:30px;
@@ -38,4 +41,53 @@ header{
 }
 h1{
     color:white;
+}
+.p1{
+    color: white;
+    font-size:23px;
+    background-color:rgb(99, 17, 17);
+    height:30px;
+    width:100px;
+    margin-left:90px;
+    border-radius:7px;
+    box-shadow:0px 0px 20px white;
+}
+a{
+    text-decoration:none;
+}
+.p2{
+    color: white;
+    font-size:30px;
+}
+video{
+    border: 2px solid white;
+    border-radius:10px;
+}
+
+.p1:hover{
+    color: white;
+    background-color: slateblue;
+    
+}
+.p3{
+    color: white;
+    font-size:23px;
+    background-color:rgb(99, 17, 17);
+    height:30px;
+    width:120px;
+    margin-left:85px;
+    border-radius:7px;
+    box-shadow:0px 0px 20px white;
+}
+.p3:hover{
+    color: white;
+    background-color: slateblue;
+    
+}
+.a1:hover{
+    color:white ;
+}
+.a2:hover{
+    transform:rotate(10deg);
+    border:1px solid cyan;
 }
