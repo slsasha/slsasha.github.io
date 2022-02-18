@@ -1,0 +1,27 @@
+body{
+    background-image: url(btPa9EOlAM.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+}
+
+h1{
+    color: rgb(20, 16, 16);
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: rgb(255, 255, 255) 0px 0px 4px;
+}
+.p1{
+    color: rgb(210, 223, 235);
+    font-size: 30px;
+    font-family:fantasy;
+    text-shadow: rgb(0, 0, 0) 0px 0px 30px;
+}
+.sil1{
+    text-decoration: none;
+    color: rgb(209, 213, 218);
+    font-size: 25px;
+}
+.sil1:hover{
+    text-decoration: black underline;
+}

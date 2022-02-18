@@ -1,0 +1,29 @@
+body{
+    background-image: url(sh.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position:fixed;
+    background-size: 100%;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: rgb(20, 16, 16);
+    font-size: 50px;
+    font-family:franklin gothic medium;
+    text-shadow: rgb(255, 255, 255) 0px 0px 4px;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 37px;
+    font-family:comic sans ms;
+    text-shadow: rgb(255, 253, 253) 2px 2px 15px;
+}
+.d1{
+    margin-top: 170px;
+}
+.d2{
+    margin-left: 700px;
+    margin-top: 100px;
+}
